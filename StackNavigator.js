@@ -11,6 +11,7 @@ import MakeAppointment from "./screens/MakeAppointment"
 
 const Stack = createNativeStackNavigator();
 
+
 const StackNavigator = () => {
     return (
         <Stack.Navigator initialRouteName='HomeScreen' screenOptions={{ headerShown: false }} >
